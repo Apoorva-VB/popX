@@ -1,0 +1,77 @@
+.container {
+  position: absolute; /* Allow manual positioning */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the div */
+  width: 375px;
+  height: 812px;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles {
+  position: absolute;
+  top: 549px;
+  left: 20px;
+  width: 231px;
+  height: 33px;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+  /* margin-bottom: 10px; */
+}
+.subtitle {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 400;
+  top: 572px;
+  left: 20px;
+  width: 232px;
+  height: 48px;
+  text-align: left;
+  font: normal normal normal 18px/26px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 0.6;
+}
+.create-btn {
+  position: absolute;
+  top: 669px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  /* UI Properties */
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  opacity: 1;
+  border: none;
+}
+.login-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 729px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  border-radius: 6px;
+  border: none;
+  background: #6c25ff4b 0% 0% no-repeat padding-box;
+}
+.btn-text {
+  /* UI Properties */
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}

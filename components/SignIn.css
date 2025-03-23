@@ -1,0 +1,93 @@
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 375px;
+  height: 812px;
+  background: #f7f8f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  /* width: 188px; */
+  height: 69px;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.para {
+  position: absolute;
+  top: 123px;
+  left: 20px;
+  width: 232px;
+  height: 48px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/26px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 0.6;
+}
+
+/* Form Styling */
+.forms {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 228px;
+  gap: 20px;
+  width: 335px;
+  /* margin-top: 180px; Adjust as needed */
+}
+
+/* Grouping input & label */
+.forms-groups {
+  position: relative;
+  width: 335px;
+}
+
+/* Floating Labels */
+.forms-groups label {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+
+  background: #f7f8f9;
+  padding: 0 5px;
+  font-size: 13px;
+  color: #6c25ff;
+}
+.forms-groups input {
+  top: 204px;
+  width: 335px;
+  height: 40px;
+  border: none;
+  border: 1px solid #cbcbcb; /* Top border */
+  /* Bottom border */
+  border-radius: 6px;
+  opacity: 1;
+}
+
+/* Button Styling */
+.login {
+  top: 350px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background: #cbcbcb;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}

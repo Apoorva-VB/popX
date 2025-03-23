@@ -1,0 +1,87 @@
+.container {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  width: 375px;
+  height: 812px;
+  background: #f7f8f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  position: absolute;
+  text-align: left !important;
+  padding-right: 150px;
+
+  top: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d2226;
+  /* text-align: left; */
+}
+
+.form {
+  margin-top: -70px;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-group {
+  position: relative;
+  width: 335px;
+}
+
+.form-group label {
+  position: absolute;
+  top: -10px; /* Moves label over the top border */
+  left: 14px;
+  font-size: 13px;
+  font-weight: 400;
+  background: #f7f8f9; /* Match background color */
+  padding: 0 5px;
+  color: #6c25ff;
+}
+
+.form-group input {
+  padding-left: 10px;
+  width: 335px;
+  height: 40px;
+  border: none;
+  border: 1px solid #cbcbcb; /* Top border */
+  /* Bottom border */
+  border-radius: 6px;
+  opacity: 1;
+}
+.radio-group {
+  margin-top: -20px;
+}
+.form-group input:focus {
+  border-bottom: 2px solid #6c25ff;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}
+.star {
+  color: #dd4a3d;
+}
+.create {
+  position: absolute;
+  top: 736px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  /* UI Properties */
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  border: none;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
